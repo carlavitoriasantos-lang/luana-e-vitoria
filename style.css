@@ -1,0 +1,92 @@
+/* CORES */
+body {
+    background-color: #f3e0a0;
+    color: #4a2412;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* CABEÇALHO */
+header {
+    background-color: #7a1f16;
+    color: #ffd966;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin: 10px;
+}
+
+/* CONTEÚDO */
+main {
+    padding: 40px;
+}
+
+/* CARD */
+.conteudo {
+    background-color: #fff4cc;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    
+    /* BORDAS ARREDONDADAS */
+    border-radius: 20px;
+    
+    /* Borda */
+    border: 3px solid #b8860b;
+}
+
+/* TAMANHOS DOS TÍTULOS */
+h2 {
+    color: #8b4513;
+    font-size: 30px;
+}
+
+/* TAMANHO DO TEXTO */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* IMAGEM */
+img {
+    width: 80%;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+/* BOTÃO */
+.botao {
+    display: inline-block;
+    background-color: #a0522d;
+    color: #ffd966;
+    
+    /* ESPAÇAMENTO INTERNO */
+    padding: 14px 25px;
+    
+    /* ESPAÇAMENTO EXTERNO */
+    margin: 20px;
+    
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 12px;
+}
+
+/* EFEITO HOVER */
+.botao:hover {
+    background-color: #7a1f16;
+    color: white;
+    border-radius: 20px;
+}
+
+/* RODAPÉ */
+footer {
+    background-color: #4a2412;
+    color: #ffd966;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
